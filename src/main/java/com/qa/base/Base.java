@@ -47,7 +47,7 @@ public class Base {
 		driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
 		driver.get(properties.getProperty("url"));
 		
-		Thread.sleep(4000);
+		Thread.sleep(40);
 
 	}
 	
